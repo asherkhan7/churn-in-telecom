@@ -36,4 +36,69 @@ After I ran the models above, I chose a few which I wanted to tune even further.
 
 ## Conclusions
 
+KNN-
+Precision: 40%
+F1-Score: 70%
+Recall: 51%
+Acuracy: 80%
+
+Regression Tree-
+Precision: 65%
+F1-Score: 73%
+Recall: 69%
+Acuracy: 90%
+
+Decision Tree-
+Precision: 74%
+F1-Score: 80%
+Recall: 77%
+Acuracy: 93%
+
+Bagged Tree-
+Precision: 76%
+F1-Score: 80%
+Recall: 78%
+Acuracy: 93%
+
+Random Forest-
+Precision: 60%
+F1-Score: 82%
+Recall: 69%
+Acuracy: 89%
+
+Random Forest (After Tuning)-
+Precision: 82%
+F1-Score: 79%
+Recall: 80%
+Acuracy: 94%
+
+AdaBoost-
+Precision: 60%
+F1-Score: 61%
+Recall: 61%
+Acuracy: 88%
+
+Gradient Boosting-
+Precision: 85%
+F1-Score: 77%
+Recall: 81%
+Acuracy: 94%
+
+XG Boost-
+Precision: 85%
+F1-Score: 77%
+Recall: 81%
+Acuracy: 94%
+
+XG Boost (After Tuning)-
+Precision: 93%
+F1-Score: 78%
+Recall: 85%
+Acuracy: 96%
+
+Concidering the above results, XG Boost after tuning and Random forest after tuning seem to be the most reliable models to run predictions. 
+
+From the following chart, it can be seen that the top columns of importance to churn are: international Plan, coustomer service calls, total day mins.
 ![feature-imp-tree_clf](/figures/feature-imp-tree_clf.png)
+
+Based on the data it seems that coustomers with international plans and the ones making the most coustomer service calls are those who are most likley to discontinue service the most. 
