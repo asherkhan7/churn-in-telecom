@@ -36,4 +36,4 @@ After I ran the models above, I chose a few which I wanted to tune even further.
 
 ## Conclusions
 
-![features](/figures/feature-imp-tree_clf.png)
+![feature-imp-tree_clf](/figures/feature-imp-tree_clf.png)
