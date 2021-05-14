@@ -101,5 +101,4 @@ Considering the above results, XG Boost after tuning and Random forest after tun
 From the following chart, it can be seen that the top columns of importance to churn are: international Plan, customer service calls, total day mins.
 
 ![feature-imp-tree_clf](/figures/feature-imp-tree_clf.png)
- 
-Based on the data it seems that customers with international plans and the ones making the most customer service calls are those who are most likely to discontinue service the most. 
+  
